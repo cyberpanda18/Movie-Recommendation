@@ -37,10 +37,10 @@ def f1():
             print(tmp[1][:-3])
             #results['text']=tmp[1][:-3]
             l.append(tmp[1][:-3])
-        if (count > 11):
+        if (count > 13):
             break
         count += 1
-
+    
     results['text'] ='Sad Movies acc.to IMDB \n'+':%s \n * %s \n * %s\n *%s\n *%s\n' % (l[0],l[1],l[2],l[3],l[4])
     l=[]
     print()
@@ -107,7 +107,7 @@ def f4():
         if (len(tmp) == 3):
             print(tmp[1][:-3])
             l.append(tmp[1][:-3])
-        if (count > 11):
+        if (count > 13):
             break
         count += 1
     print()
@@ -130,7 +130,7 @@ def f5():
         if (len(tmp) == 3):
             print(tmp[1][:-3])
             l.append(tmp[1][:-3])
-        if (count > 11):
+        if (count > 13):
             break
         count += 1
     print()
@@ -153,7 +153,7 @@ def f6():
         if (len(tmp) == 3):
             print(tmp[1][:-3])
             l.append(tmp[1][:-3])
-        if (count > 11):
+        if (count > 13):
             break
         count += 1
     print()
@@ -177,7 +177,7 @@ def f7():
         if (len(tmp) == 3):
             print(tmp[1][:-3])
             l.append(tmp[1][:-3])
-        if (count > 11):
+        if (count > 13):
             break
         count += 1
     print()
